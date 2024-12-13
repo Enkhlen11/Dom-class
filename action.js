@@ -42,6 +42,7 @@ let cards = "";
 for (let i = 0; i < cardsInfos.length; i++) {
   let card = `<div class="card">
     <h2>${cardsInfos[i].title}</h2>
+    <p>${cardsInfos[i].text}</p>
     <div class="card-body">
     <img src="${cardsInfos[i].imgUrl}" alt=""/>
 
